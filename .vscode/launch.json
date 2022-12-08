@@ -1,14 +1,16 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Launch npm in dev mode",
             "type": "node-terminal",
             "request": "launch",
             "command": "npm run dev",
-            "name": "Launch npm in dev mode",
+            "env": {
+                "AGORA_APP_ID":"ec99ba07a5ef4680bde221a5dd4423bd",
+                "AGORA_APP_CHANNEL":"itsp",
+                "AGORA_CHANNEL_TOKEN": "007eJxTYLixqOL+ju2JDWnLZYqNT/7KzJskceeqfclfk7wJjf3BzfYKDKnJlpZJiQbmiaapaSZmFgZJKalGRoaJpikpJiZGxkkpuhyTkhsCGRl2TNnIxMgAgSA+C0NmSXEBAwMA2Q8hCg=="
+            }
         }
     ]
 }
